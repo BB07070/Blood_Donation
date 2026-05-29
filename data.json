@@ -1,0 +1,934 @@
+{
+  "users": {
+    "donors": [
+      {
+        "id": "8b2803db-0eef-4f89-be4a-6a2cb4023712",
+        "name": "Jane Donor",
+        "email": "jane@test.com",
+        "phone": "555",
+        "bloodType": "O+",
+        "password": "$2a$10$sBOT6BjibMNUQGOWcbn8QOiYKehHMahMAV71fauCZW15l7/Y11jfS",
+        "age": 30,
+        "weight": 60,
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T08:09:07.356Z"
+      },
+      {
+        "id": "a06ab9e5-a22d-4262-a4d0-f7608ebd09ce",
+        "name": "samp",
+        "email": "sam@gmail.com",
+        "phone": "1234567890",
+        "bloodType": "O+",
+        "password": "$2a$10$A6DadIOFLqzYrYK8zj.wKuUk64hBruBkE4xO6gQVslz2uBTzhZDrW",
+        "age": "25",
+        "weight": "50",
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T08:15:01.118Z"
+      },
+      {
+        "id": "cf5b7e87-1d46-4a10-84a3-815a98805ad7",
+        "name": "Bob Donor",
+        "email": "bob@test.com",
+        "phone": "999",
+        "bloodType": "A+",
+        "password": "$2a$10$F6KOGdMQQdxy2s1njR9mtuoiDyKU6OJZW2FIhXqzy8daIx2yw/kZm",
+        "age": 28,
+        "weight": 70,
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T08:24:20.564Z"
+      },
+      {
+        "id": "d5da6d6b-0080-413b-8742-7c307dcc08b8",
+        "name": "John Doe",
+        "email": "donor@test.com",
+        "phone": "9876543210",
+        "bloodType": "AB-",
+        "password": "$2a$10$0ByJRqVh1qoy6Y/hOmXa3Odg2Kl6AbpizhL6Res59dIMKUdeF6hfW",
+        "age": "60",
+        "weight": "50",
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T09:40:46.282Z"
+      },
+      {
+        "id": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+        "name": "aritro",
+        "email": "aritro@gmail.com",
+        "phone": "8902244092",
+        "address": "",
+        "bloodType": "AB-",
+        "password": "$2a$10$pBMkezqLJTV58HcaHQ8UEey4Er4F6fMe1Lqraig.uXmr0EGpFhD9.",
+        "age": "20",
+        "weight": "50",
+        "latitude": 22.57825272616549,
+        "longitude": 88.47577437665359,
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T10:08:25.418Z"
+      },
+      {
+        "id": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+        "name": "biswajit",
+        "email": "biswajit@gmail.com",
+        "phone": "8902244092",
+        "address": "",
+        "bloodType": "O+",
+        "password": "$2a$10$aOSqLHqiPkgSbvqouyviOucdsSXI1f3ZP4vJDxFBgGlhoe29xYfWS",
+        "age": "20",
+        "weight": "60",
+        "latitude": 22.5782915,
+        "longitude": 88.4761425,
+        "lastDonationDate": null,
+        "totalDonations": 0,
+        "isEligible": true,
+        "createdAt": "2026-05-29T10:26:13.937Z"
+      }
+    ],
+    "receivers": [
+      {
+        "id": "0effdeee-268e-4f4d-83fa-2ca4a7580fa2",
+        "name": "R",
+        "email": "r@test.com",
+        "phone": "1",
+        "password": "$2a$10$EakWagCe4paf.eB6x6fZAeO46aw1JTSEEziiBzyY8rNbQ4qap7vGi",
+        "address": "a",
+        "createdAt": "2026-05-29T08:09:07.584Z"
+      },
+      {
+        "id": "c84df78f-d593-42b9-863f-ad930cbeabf2",
+        "name": "RAm",
+        "email": "ram@gmail.com",
+        "phone": "8902244092",
+        "password": "$2a$10$4EsetI/KC1vYMMw9Foo2re9EEXrNG/SpwbW0Dcyh/HcxL37I4P3Ri",
+        "address": "123",
+        "createdAt": "2026-05-29T10:33:17.910Z"
+      }
+    ],
+    "hospitals": [
+      {
+        "id": "24c3b0c0-3835-4c3c-aee4-c731e37eb450",
+        "name": "City Hospital",
+        "email": "hosp@test.com",
+        "phone": "111",
+        "password": "$2a$10$IaBQrQP/m.FIL3SRAPuWL./Xgj17936MJOcYcFgvkHlijFmHJNRsy",
+        "address": "Main St",
+        "licenseNumber": "L1",
+        "verified": true,
+        "createdAt": "2026-05-29T08:24:20.429Z"
+      },
+      {
+        "id": "8402d11c-dd83-4027-886c-84c0aa935341",
+        "name": "AMRI Hospital Mukundapur Kolkata",
+        "email": "amri@gmail.com",
+        "phone": "1234567890",
+        "password": "$2a$10$B/MGZbgufczuoCupczaKxeZVmSWuJw17vBojn9nn1OUQEo.UuCGJq",
+        "address": "amri kolkata",
+        "licenseNumber": "ASDPqer478933",
+        "verified": true,
+        "createdAt": "2026-05-29T09:18:09.924Z"
+      },
+      {
+        "id": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+        "name": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+        "email": "rgkar@gmail.com",
+        "phone": "9876543210",
+        "password": "$2a$10$VIFgEeMyUEZug8BzXgr/Ve9AEo8VtN0hdiKU8/rp2Ro6m50DKjiEi",
+        "address": "",
+        "licenseNumber": "wdsadgashvdhjavd031151x",
+        "latitude": 22.5782915,
+        "longitude": 88.4761425,
+        "verified": true,
+        "createdAt": "2026-05-29T10:07:35.081Z"
+      }
+    ]
+  },
+  "bloodRequests": [
+    {
+      "id": "848e059d-6edc-4412-b304-76afb047f3f4",
+      "receiverId": "0effdeee-268e-4f4d-83fa-2ca4a7580fa2",
+      "receiverName": "R",
+      "bloodType": "O+",
+      "units": 1,
+      "hospital": "General",
+      "urgency": "normal",
+      "dateNeeded": "2026-05-29T08:09:07.664Z",
+      "status": "active",
+      "donors": [
+        {
+          "donorId": "8b2803db-0eef-4f89-be4a-6a2cb4023712",
+          "donorName": "Jane Donor",
+          "donorBlood": "O+",
+          "donorPhone": "555",
+          "committedAt": "2026-05-29T08:09:07.708Z"
+        },
+        {
+          "donorId": "a06ab9e5-a22d-4262-a4d0-f7608ebd09ce",
+          "donorName": "samp",
+          "donorBlood": "O+",
+          "donorPhone": "1234567890",
+          "committedAt": "2026-05-29T08:15:09.726Z"
+        }
+      ],
+      "createdAt": "2026-05-29T08:09:07.664Z",
+      "expiresAt": "2026-05-31T08:09:07.664Z"
+    },
+    {
+      "id": "410f102d-e639-4494-a28b-31580752cdf7",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "hospital": "AMRI Hospital Mukundapur Kolkata",
+      "patientName": "abcd",
+      "bloodType": "A+",
+      "units": 2,
+      "reason": "accident",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [],
+      "notifiedDonors": [
+        "cf5b7e87-1d46-4a10-84a3-815a98805ad7"
+      ],
+      "createdAt": "2026-05-29T09:19:18.471Z",
+      "expiresAt": "2026-05-31T09:19:18.471Z",
+      "lastNotifiedAt": "2026-05-29T09:42:10.370Z"
+    },
+    {
+      "id": "ba91692e-e014-4017-ab58-8013a2152024",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "hospital": "AMRI Hospital Mukundapur Kolkata",
+      "patientName": "bisu",
+      "bloodType": "A+",
+      "units": 2,
+      "reason": "accident",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [],
+      "notifiedDonors": [
+        "cf5b7e87-1d46-4a10-84a3-815a98805ad7"
+      ],
+      "createdAt": "2026-05-29T09:41:48.787Z",
+      "expiresAt": "2026-05-31T09:41:48.787Z",
+      "lastNotifiedAt": "2026-05-29T09:42:25.137Z"
+    },
+    {
+      "id": "a50d226e-c29e-4a05-9430-140224e9bf8b",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "hospital": "AMRI Hospital Mukundapur Kolkata",
+      "patientName": "bisu",
+      "bloodType": "AB-",
+      "units": 2,
+      "reason": "accident",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [
+        {
+          "donorId": "d5da6d6b-0080-413b-8742-7c307dcc08b8",
+          "donorName": "John Doe",
+          "donorBlood": "AB-",
+          "donorPhone": "9876543210",
+          "committedAt": "2026-05-29T09:43:33.049Z",
+          "viaChatbot": true
+        }
+      ],
+      "notifiedDonors": [
+        "d5da6d6b-0080-413b-8742-7c307dcc08b8"
+      ],
+      "createdAt": "2026-05-29T09:42:49.778Z",
+      "expiresAt": "2026-05-31T09:42:49.778Z",
+      "lastNotifiedAt": "2026-05-29T09:43:01.438Z"
+    },
+    {
+      "id": "35f24bce-ac60-456f-a16a-3fcf762f8bb6",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "agamoni",
+      "bloodType": "AB-",
+      "units": 2,
+      "reason": "surgery",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [
+        {
+          "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+          "donorName": "aritro",
+          "donorBlood": "AB-",
+          "donorPhone": "8902244092",
+          "committedAt": "2026-05-29T10:09:37.239Z"
+        }
+      ],
+      "notifiedDonors": [
+        "133e0439-d0d7-4db1-9993-7dddd3fab47e"
+      ],
+      "createdAt": "2026-05-29T10:09:02.340Z",
+      "expiresAt": "2026-05-31T10:09:02.340Z",
+      "lastNotifiedAt": "2026-05-29T10:09:26.840Z"
+    },
+    {
+      "id": "ce595135-0a74-4fc6-af76-753ecbce196f",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "Sabnam",
+      "bloodType": "AB-",
+      "units": 4,
+      "reason": "Surgery",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [
+        {
+          "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+          "donorName": "aritro",
+          "donorBlood": "AB-",
+          "donorPhone": "8902244092",
+          "committedAt": "2026-05-29T10:21:05.640Z"
+        }
+      ],
+      "notifiedDonors": [],
+      "createdAt": "2026-05-29T10:20:47.089Z",
+      "expiresAt": "2026-05-31T10:20:47.089Z"
+    },
+    {
+      "id": "9417c5ee-0496-4b62-8d63-d98ca6bebdc2",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "ASIM",
+      "bloodType": "O+",
+      "units": 3,
+      "reason": "accident",
+      "urgency": "normal",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [
+        {
+          "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+          "donorName": "biswajit",
+          "donorBlood": "O+",
+          "donorPhone": "8902244092",
+          "committedAt": "2026-05-29T10:26:52.041Z"
+        }
+      ],
+      "notifiedDonors": [
+        "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0"
+      ],
+      "createdAt": "2026-05-29T10:26:37.135Z",
+      "expiresAt": "2026-05-31T10:26:37.135Z",
+      "lastNotifiedAt": "2026-05-29T10:32:12.034Z"
+    },
+    {
+      "id": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "ranju",
+      "bloodType": "O+",
+      "units": 2,
+      "reason": "covid",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [],
+      "notifiedDonors": [
+        "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0"
+      ],
+      "createdAt": "2026-05-29T10:31:33.216Z",
+      "expiresAt": "2026-05-31T10:31:33.216Z",
+      "lastNotifiedAt": "2026-05-29T10:32:22.897Z"
+    },
+    {
+      "id": "32d9213b-42ea-4d72-b5e9-1ca6ca88a6db",
+      "receiverId": "c84df78f-d593-42b9-863f-ad930cbeabf2",
+      "receiverName": "RAm",
+      "bloodType": "O+",
+      "units": 2,
+      "hospital": "R G Kar",
+      "reason": "",
+      "urgency": "normal",
+      "dateNeeded": "2026-05-29T10:33:33.622Z",
+      "status": "active",
+      "donors": [],
+      "createdAt": "2026-05-29T10:33:33.622Z",
+      "expiresAt": "2026-05-31T10:33:33.622Z"
+    },
+    {
+      "id": "4a766c1c-c862-4d4e-8c6d-a2c125f7d620",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "xyz",
+      "bloodType": "O+",
+      "units": 2,
+      "reason": "surgery",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [],
+      "notifiedDonors": [
+        "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0"
+      ],
+      "createdAt": "2026-05-29T10:39:04.085Z",
+      "expiresAt": "2026-05-31T10:39:04.085Z",
+      "lastNotifiedAt": "2026-05-29T10:39:21.459Z"
+    },
+    {
+      "id": "c50de4f6-d251-4a6b-b1b1-5f4778d394e3",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "hospital": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "patientName": "abv",
+      "bloodType": "AB-",
+      "units": 2,
+      "reason": "xv",
+      "urgency": "high",
+      "status": "active",
+      "createdBy": "hospital",
+      "donors": [
+        {
+          "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+          "donorName": "aritro",
+          "donorBlood": "AB-",
+          "donorPhone": "8902244092",
+          "committedAt": "2026-05-29T10:48:32.453Z"
+        }
+      ],
+      "notifiedDonors": [
+        "133e0439-d0d7-4db1-9993-7dddd3fab47e"
+      ],
+      "createdAt": "2026-05-29T10:47:08.639Z",
+      "expiresAt": "2026-05-31T10:47:08.639Z",
+      "lastNotifiedAt": "2026-05-29T10:48:13.727Z"
+    }
+  ],
+  "donations": [],
+  "notifications": [
+    {
+      "id": "82b14fdf-d168-408e-a9e8-0bd36dd440f3",
+      "donorId": "cf5b7e87-1d46-4a10-84a3-815a98805ad7",
+      "donorName": "Bob Donor",
+      "donorPhone": "999",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "requestId": "410f102d-e639-4494-a28b-31580752cdf7",
+      "bloodType": "A+",
+      "channel": "chatbot",
+      "message": "Hello Bob Donor,\n\n🩸 URGENT BLOOD REQUIRED\n\nAMRI Hospital Mukundapur Kolkata urgently needs A+ blood.\nUnits required: 2\nPatient: abcd\nUrgency: high\nReason: accident\n\nCan you come to donate? Please reply YES or NO in the BloodLink chatbot.\n\n— BloodLink Chatbot (on behalf of AMRI Hospital Mukundapur Kolkata)",
+      "read": false,
+      "donorResponse": null,
+      "createdAt": "2026-05-29T09:19:44.395Z"
+    },
+    {
+      "id": "611d4478-867c-4a97-a98d-a67d5fcd737c",
+      "donorId": "cf5b7e87-1d46-4a10-84a3-815a98805ad7",
+      "donorName": "Bob Donor",
+      "donorPhone": "999",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "requestId": "ba91692e-e014-4017-ab58-8013a2152024",
+      "bloodType": "A+",
+      "channel": "chatbot",
+      "message": "Hello Bob Donor,\n\n🩸 URGENT BLOOD REQUIRED\n\nAMRI Hospital Mukundapur Kolkata urgently needs A+ blood.\nUnits required: 2\nPatient: bisu\nUrgency: high\nReason: accident\n\nCan you come to donate? Please reply YES or NO in the BloodLink chatbot.\n\n— BloodLink Chatbot (on behalf of AMRI Hospital Mukundapur Kolkata)",
+      "read": false,
+      "donorResponse": null,
+      "createdAt": "2026-05-29T09:42:07.683Z"
+    },
+    {
+      "id": "c027820d-5ad5-463a-b819-0d420d52fa05",
+      "donorId": "cf5b7e87-1d46-4a10-84a3-815a98805ad7",
+      "donorName": "Bob Donor",
+      "donorPhone": "999",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "requestId": "410f102d-e639-4494-a28b-31580752cdf7",
+      "bloodType": "A+",
+      "channel": "chatbot",
+      "message": "Hello Bob Donor,\n\n🩸 URGENT BLOOD REQUIRED\n\nAMRI Hospital Mukundapur Kolkata urgently needs A+ blood.\nUnits required: 2\nPatient: abcd\nUrgency: high\nReason: accident\n\nCan you come to donate? Please reply YES or NO in the BloodLink chatbot.\n\n— BloodLink Chatbot (on behalf of AMRI Hospital Mukundapur Kolkata)",
+      "read": false,
+      "donorResponse": null,
+      "createdAt": "2026-05-29T09:42:10.370Z"
+    },
+    {
+      "id": "cf3bfca0-4217-42d7-99d2-48bbeba7ad6f",
+      "donorId": "cf5b7e87-1d46-4a10-84a3-815a98805ad7",
+      "donorName": "Bob Donor",
+      "donorPhone": "999",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "requestId": "ba91692e-e014-4017-ab58-8013a2152024",
+      "bloodType": "A+",
+      "channel": "chatbot",
+      "message": "Hello Bob Donor,\n\n🩸 URGENT BLOOD REQUIRED\n\nAMRI Hospital Mukundapur Kolkata urgently needs A+ blood.\nUnits required: 2\nPatient: bisu\nUrgency: high\nReason: accident\n\nCan you come to donate? Please reply YES or NO in the BloodLink chatbot.\n\n— BloodLink Chatbot (on behalf of AMRI Hospital Mukundapur Kolkata)",
+      "read": false,
+      "donorResponse": null,
+      "createdAt": "2026-05-29T09:42:25.137Z"
+    },
+    {
+      "id": "aeee38c0-c8c8-4e00-80f8-075d4fc93ebf",
+      "donorId": "d5da6d6b-0080-413b-8742-7c307dcc08b8",
+      "donorName": "John Doe",
+      "donorPhone": "9876543210",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "requestId": "a50d226e-c29e-4a05-9430-140224e9bf8b",
+      "bloodType": "AB-",
+      "channel": "chatbot",
+      "message": "Hello John Doe,\n\n🩸 URGENT BLOOD REQUIRED\n\nAMRI Hospital Mukundapur Kolkata urgently needs AB- blood.\nUnits required: 2\nPatient: bisu\nUrgency: high\nReason: accident\n\nCan you come to donate? Please reply YES or NO in the BloodLink chatbot.\n\n— BloodLink Chatbot (on behalf of AMRI Hospital Mukundapur Kolkata)",
+      "read": true,
+      "donorResponse": "yes",
+      "createdAt": "2026-05-29T09:43:01.437Z",
+      "respondedAt": "2026-05-29T09:43:33.049Z",
+      "chatThreadId": "825df812-6b28-4dbe-9bb8-c5b872e01116"
+    },
+    {
+      "id": "b8ac8191-ee93-4890-981c-a77adbce0793",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "donorName": "aritro",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "35f24bce-ac60-456f-a16a-3fcf762f8bb6",
+      "chatThreadId": "a40ab632-bb6d-4760-b448-7eb02c1d41c8",
+      "bloodType": "AB-",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": true,
+      "message": "Hello aritro,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs AB- blood.\nUnits required: 2\nPatient: agamoni\nUrgency: high\nReason: surgery\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": true,
+      "donorResponse": "yes",
+      "createdAt": "2026-05-29T10:09:26.839Z",
+      "respondedAt": "2026-05-29T10:09:46.355Z"
+    },
+    {
+      "id": "391c046c-c9f2-4ee5-9087-94c8f1c573d2",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "donorName": "biswajit",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "chatThreadId": "1a579969-01e7-48b8-aa6a-f94dfff32d69",
+      "bloodType": "O+",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": false,
+      "smsStatus": "failed",
+      "smsE164": "+918902244092",
+      "message": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: ranju\nUrgency: high\nReason: covid\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": true,
+      "donorResponse": "no",
+      "createdAt": "2026-05-29T10:31:58.026Z",
+      "respondedAt": "2026-05-29T10:38:27.117Z"
+    },
+    {
+      "id": "35715a46-8a6c-4bca-b224-f32fa8351409",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "donorName": "biswajit",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "9417c5ee-0496-4b62-8d63-d98ca6bebdc2",
+      "chatThreadId": "c5fdfba9-0f0e-4194-8ef9-2aca60eee5e6",
+      "bloodType": "O+",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": false,
+      "smsStatus": "failed",
+      "smsE164": "+918902244092",
+      "message": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 3\nPatient: ASIM\nUrgency: normal\nReason: accident\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": true,
+      "donorResponse": "no",
+      "createdAt": "2026-05-29T10:32:12.034Z",
+      "respondedAt": "2026-05-29T10:38:29.941Z"
+    },
+    {
+      "id": "9b1533e1-6b49-450e-8963-03c1e3ca9cc3",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "donorName": "biswajit",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "chatThreadId": "1a579969-01e7-48b8-aa6a-f94dfff32d69",
+      "bloodType": "O+",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": false,
+      "smsStatus": "failed",
+      "smsE164": "+918902244092",
+      "message": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: ranju\nUrgency: high\nReason: covid\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": true,
+      "donorResponse": "no",
+      "createdAt": "2026-05-29T10:32:22.897Z",
+      "respondedAt": "2026-05-29T10:38:32.806Z"
+    },
+    {
+      "id": "00459a7f-f939-4090-8462-ff55a9c2bdb5",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "donorName": "biswajit",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "4a766c1c-c862-4d4e-8c6d-a2c125f7d620",
+      "chatThreadId": "53a3b4c2-1c48-43f0-9878-1ae8e90d55da",
+      "bloodType": "O+",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": false,
+      "smsStatus": "failed",
+      "smsE164": "+918902244092",
+      "message": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: xyz\nUrgency: high\nReason: surgery\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": false,
+      "donorResponse": null,
+      "createdAt": "2026-05-29T10:39:21.458Z"
+    },
+    {
+      "id": "db7bbc3f-95d3-43c1-81cd-ebc925bd9d2e",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "donorName": "aritro",
+      "donorPhone": "8902244092",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "requestId": "c50de4f6-d251-4a6b-b1b1-5f4778d394e3",
+      "chatThreadId": "ca508ee4-82b8-42d8-b3e6-9af8b7f7dced",
+      "bloodType": "AB-",
+      "channel": "chatbot",
+      "distanceKm": 0,
+      "smsSent": false,
+      "smsStatus": "failed",
+      "smsE164": "+918902244092",
+      "message": "Hello aritro,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs AB- blood.\nUnits required: 2\nPatient: abv\nUrgency: high\nReason: xv\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+      "read": true,
+      "donorResponse": "yes",
+      "createdAt": "2026-05-29T10:48:13.726Z",
+      "respondedAt": "2026-05-29T10:50:30.130Z"
+    }
+  ],
+  "chatThreads": [
+    {
+      "id": "825df812-6b28-4dbe-9bb8-c5b872e01116",
+      "requestId": "a50d226e-c29e-4a05-9430-140224e9bf8b",
+      "hospitalId": "8402d11c-dd83-4027-886c-84c0aa935341",
+      "donorId": "d5da6d6b-0080-413b-8742-7c307dcc08b8",
+      "hospitalName": "AMRI Hospital Mukundapur Kolkata",
+      "donorName": "John Doe",
+      "bloodType": "AB-",
+      "status": "agreed",
+      "messages": [
+        {
+          "id": "adc52cb8-7685-48ae-b256-ac40c0ada85b",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T09:55:13.278Z"
+        },
+        {
+          "id": "feb8dd38-f1ac-4a0a-ba4e-d606c2abf555",
+          "senderType": "donor",
+          "senderName": "John Doe",
+          "text": "John Doe agreed to come and donate.",
+          "createdAt": "2026-05-29T09:55:13.278Z"
+        },
+        {
+          "id": "5b7e3180-4982-4b42-b713-8dc5784116aa",
+          "senderType": "system",
+          "senderName": null,
+          "text": "Chat is open. Hospital can now send meeting point and donation process details.",
+          "createdAt": "2026-05-29T09:55:13.278Z"
+        }
+      ],
+      "createdAt": "2026-05-29T09:55:13.278Z",
+      "updatedAt": "2026-05-29T09:55:13.278Z"
+    },
+    {
+      "id": "a40ab632-bb6d-4760-b448-7eb02c1d41c8",
+      "requestId": "35f24bce-ac60-456f-a16a-3fcf762f8bb6",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "donorName": "aritro",
+      "bloodType": "AB-",
+      "status": "agreed",
+      "messages": [
+        {
+          "id": "39412d16-6458-4836-8ff1-c71f048f72c9",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T10:09:26.838Z"
+        },
+        {
+          "id": "caefb090-c718-49f5-9eee-eb2927b8cb6b",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello aritro,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs AB- blood.\nUnits required: 2\nPatient: agamoni\nUrgency: high\nReason: surgery\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:09:26.840Z"
+        },
+        {
+          "id": "debd5c31-6468-4e45-8d58-0f4af5cc44fb",
+          "senderType": "donor",
+          "senderName": "aritro",
+          "text": "aritro agreed to come and donate.",
+          "createdAt": "2026-05-29T10:09:46.356Z"
+        },
+        {
+          "id": "ad57c37b-6cba-46b9-937c-69d4dd084d99",
+          "senderType": "system",
+          "senderName": null,
+          "text": "Chat is open. Hospital can now send meeting point and donation process details.",
+          "createdAt": "2026-05-29T10:09:46.356Z"
+        },
+        {
+          "id": "835ea6ff-d38d-4f40-8f64-0b45a2179180",
+          "senderType": "donor",
+          "senderName": "aritro",
+          "text": "dfge",
+          "createdAt": "2026-05-29T10:10:35.291Z"
+        },
+        {
+          "id": "54f49cd6-2698-4522-8ec6-370c2be8d329",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "✅ DONATION DETAILS — R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal\n\nMeeting: Hospital reception — R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal\nTime: As soon as possible\n\nProcess:\nBring ID. Register at reception. Light meal before donation. Rest 15 minutes after.\n\nContact hospital phone: 9876543210",
+          "createdAt": "2026-05-29T10:11:14.635Z"
+        },
+        {
+          "id": "dd8f5b11-d874-444c-9534-aeb34011a4e0",
+          "senderType": "donor",
+          "senderName": "aritro",
+          "text": "ok",
+          "createdAt": "2026-05-29T10:11:45.031Z"
+        }
+      ],
+      "createdAt": "2026-05-29T10:09:26.838Z",
+      "updatedAt": "2026-05-29T10:11:45.031Z"
+    },
+    {
+      "id": "1a579969-01e7-48b8-aa6a-f94dfff32d69",
+      "requestId": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "donorName": "biswajit",
+      "bloodType": "O+",
+      "status": "open",
+      "messages": [
+        {
+          "id": "fa8e2870-9d63-4fbb-82b3-d78085b6dafe",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T10:31:56.055Z"
+        },
+        {
+          "id": "2bb6202d-4246-427a-ad75-709867647f20",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: ranju\nUrgency: high\nReason: covid\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:31:58.027Z"
+        },
+        {
+          "id": "631d993f-4bd2-4f6a-b26d-61a47829fd50",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: ranju\nUrgency: high\nReason: covid\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:32:22.897Z"
+        }
+      ],
+      "createdAt": "2026-05-29T10:31:56.055Z",
+      "updatedAt": "2026-05-29T10:32:22.897Z"
+    },
+    {
+      "id": "c5fdfba9-0f0e-4194-8ef9-2aca60eee5e6",
+      "requestId": "9417c5ee-0496-4b62-8d63-d98ca6bebdc2",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "donorName": "biswajit",
+      "bloodType": "O+",
+      "status": "open",
+      "messages": [
+        {
+          "id": "4e66b903-f571-4163-8db9-5d4086bd57a9",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T10:32:11.542Z"
+        },
+        {
+          "id": "0111bc83-f0a9-4144-bca1-026ee86046d9",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 3\nPatient: ASIM\nUrgency: normal\nReason: accident\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:32:12.034Z"
+        }
+      ],
+      "createdAt": "2026-05-29T10:32:11.542Z",
+      "updatedAt": "2026-05-29T10:32:12.034Z"
+    },
+    {
+      "id": "53a3b4c2-1c48-43f0-9878-1ae8e90d55da",
+      "requestId": "4a766c1c-c862-4d4e-8c6d-a2c125f7d620",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "donorName": "biswajit",
+      "bloodType": "O+",
+      "status": "open",
+      "messages": [
+        {
+          "id": "2ca19572-171f-4baf-8160-1c25b57c24dd",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T10:39:20.666Z"
+        },
+        {
+          "id": "211cd087-3352-4683-9b67-4a93f892c641",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello biswajit,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs O+ blood.\nUnits required: 2\nPatient: xyz\nUrgency: high\nReason: surgery\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:39:21.458Z"
+        }
+      ],
+      "createdAt": "2026-05-29T10:39:20.666Z",
+      "updatedAt": "2026-05-29T10:39:21.458Z"
+    },
+    {
+      "id": "ca508ee4-82b8-42d8-b3e6-9af8b7f7dced",
+      "requestId": "c50de4f6-d251-4a6b-b1b1-5f4778d394e3",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "hospitalName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+      "donorName": "aritro",
+      "bloodType": "AB-",
+      "status": "agreed",
+      "messages": [
+        {
+          "id": "7bf82535-db2f-4f32-b423-e99f7fd13415",
+          "senderType": "system",
+          "text": "You are connected with the hospital. Reply here after the alert. If you agree to donate, the hospital will send meeting and donation process details.",
+          "createdAt": "2026-05-29T10:48:12.430Z"
+        },
+        {
+          "id": "0f48a63b-ed36-43a1-a292-ff898365caf4",
+          "senderType": "hospital",
+          "senderName": "R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal",
+          "text": "Hello aritro,\n\n🩸 URGENT BLOOD REQUIRED\n\nR G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal urgently needs AB- blood.\nUnits required: 2\nPatient: abv\nUrgency: high\nReason: xv\n\nYou are within 30 km of the hospital.\nAn SMS was sent to your registered mobile.\n\nCan you donate? Reply YES to open chat with the hospital, or NO.\n\n— BloodLink Chatbot (R G KAR MEDICAL COLLEGE AND HOSPITAL — KOLKATA, West Bengal)",
+          "createdAt": "2026-05-29T10:48:13.726Z"
+        },
+        {
+          "id": "578d9a9f-80c3-4876-a2d4-fdf2d12d1394",
+          "senderType": "donor",
+          "senderName": "aritro",
+          "text": "aritro agreed to come and donate.",
+          "createdAt": "2026-05-29T10:50:30.131Z"
+        },
+        {
+          "id": "1d3bad89-c1ea-432f-b827-3c6160316322",
+          "senderType": "system",
+          "senderName": null,
+          "text": "Chat is open. Hospital can now send meeting point and donation process details.",
+          "createdAt": "2026-05-29T10:50:30.131Z"
+        }
+      ],
+      "createdAt": "2026-05-29T10:48:12.430Z",
+      "updatedAt": "2026-05-29T10:50:30.131Z"
+    }
+  ],
+  "smsLogs": [
+    {
+      "id": "fee804bd-791b-4972-95bd-b2a84bbee8b4",
+      "phone": "8902244092",
+      "message": "IMMEDIATE BLOOD REQUIRE .. CONTACT TO HOSPITAL THROUGH CHATBOT",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "requestId": "35f24bce-ac60-456f-a16a-3fcf762f8bb6",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:09:26.839Z",
+      "status": "sent_simulated"
+    },
+    {
+      "id": "059af0b9-aa3d-4a37-b257-016c66ff608e",
+      "phone": "8902244092",
+      "e164": "+918902244092",
+      "message": "Urgent blood needed. Please open BloodLink chatbot and reply YES or NO to the hospital request.",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "requestId": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:31:56.055Z",
+      "status": "failed",
+      "provider": "twilio",
+      "error": "Authentication Error - invalid username"
+    },
+    {
+      "id": "fdcaa8fb-0493-4fa8-8e05-8742be35a300",
+      "phone": "8902244092",
+      "e164": "+918902244092",
+      "message": "Urgent blood needed. Please open BloodLink chatbot and reply YES or NO to the hospital request.",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "requestId": "9417c5ee-0496-4b62-8d63-d98ca6bebdc2",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:32:11.542Z",
+      "status": "failed",
+      "provider": "twilio",
+      "error": "Authentication Error - invalid username"
+    },
+    {
+      "id": "3b5ba28f-0a7d-4f48-808e-fe3af0284551",
+      "phone": "8902244092",
+      "e164": "+918902244092",
+      "message": "Urgent blood needed. Please open BloodLink chatbot and reply YES or NO to the hospital request.",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "requestId": "d95e65ae-ba64-44ca-a2cf-f466e9d2451b",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:32:21.832Z",
+      "status": "failed",
+      "provider": "twilio",
+      "error": "Authentication Error - invalid username"
+    },
+    {
+      "id": "18edca82-2c68-4e6f-a157-9dbb7d2a8dce",
+      "phone": "8902244092",
+      "e164": "+918902244092",
+      "message": "Urgent blood needed. Please open BloodLink chatbot and reply YES or NO to the hospital request.",
+      "donorId": "f417fbe9-7d0a-444a-8cab-dd6dfdfbd6f0",
+      "requestId": "4a766c1c-c862-4d4e-8c6d-a2c125f7d620",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:39:20.667Z",
+      "status": "failed",
+      "provider": "twilio",
+      "error": "Authentication Error - invalid username"
+    },
+    {
+      "id": "73ad1825-84dc-46e0-9def-d6813247a138",
+      "phone": "8902244092",
+      "e164": "+918902244092",
+      "message": "Urgent blood needed. Please open BloodLink chatbot and reply YES or NO to the hospital request.",
+      "donorId": "133e0439-d0d7-4db1-9993-7dddd3fab47e",
+      "requestId": "c50de4f6-d251-4a6b-b1b1-5f4778d394e3",
+      "hospitalId": "ef54a580-d1d5-4840-8643-f96d71865dbd",
+      "sentAt": "2026-05-29T10:48:12.431Z",
+      "status": "failed",
+      "provider": "twilio",
+      "error": "Authentication Error - invalid username"
+    }
+  ],
+  "bloodInventory": {
+    "A+": 0,
+    "A-": 0,
+    "B+": 0,
+    "B-": 0,
+    "O+": 0,
+    "O-": 0,
+    "AB+": 0,
+    "AB-": 0
+  }
+}

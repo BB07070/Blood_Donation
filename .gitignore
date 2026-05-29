@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Secrets / local config
+.env
+.env.local
+
+# Local database (contains user passwords / test data)
+data.json
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
